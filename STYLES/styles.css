@@ -1,24 +1,54 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    color: white;
+    font-size: 20px;
 }
 
 .inicio {
+    padding: 0 130px;
     background-image: url(../ASSETS/banner-bk.jpg);
-    height: 60vh;
-    color: white;
+    background-size: cover;
+    height: 85vh;
     display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .text {
+    display: flex;
+    color: white;
     font-size: 100px;
-    padding-top: ;
 }
 
 .logo {
     height: 110px;
-    padding-top: 95px;
-    padding-left: 170px;
+}
+
+.texto1 {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    width: 1000px;
+}
+
+button {
+    color: black;
+    width: 170px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(73, 228, 176);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
 }
