@@ -212,6 +212,8 @@ span {
     background-image: url(../ASSETS/contact-bk.jpg);
     height: 40vh;
     font-size: 20px;
+    display: flex;
+    gap: 60px;
 }
 
 .contact aside {
@@ -233,8 +235,21 @@ span {
 
 .formulario input {
     border-color: #00ffae;
+    background: transparent;
 }
 
 .formulario textarea {
     border-color: #00ffae;
+    background: transparent;
+}
+
+.copyr {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 130px;
+    background-color: #122242;
+    height: 150px;
 }
