@@ -222,8 +222,6 @@ span {
 }
 
 .formulario {
-    display: flex;
-    flex-direction: column;
     margin-top: 33px;
     width: 850px;
     font-size: 25px;
@@ -246,7 +244,7 @@ span {
     border-color: #00ffae;
     background: transparent;
     color: white;
-    height: 150px;
+    height: 100px;
     width: 800px;
     padding: 10px;
     border-radius: 5px;
@@ -255,8 +253,6 @@ span {
 
 .form {
     display: flex;
-    /* 
-    align-items: center;/*  */
     justify-content: space-around;
     gap: 60px;
 }
@@ -273,22 +269,23 @@ span {
 }
 
 footer {
-    display: block;
-}
-
-.copyr {
     display: flex;
     color: white;
     font-size: 25px;
     align-items: center;
+    justify-content: space-between;
     padding: 0 130px;
     background-color: #122242;
     height: 150px;
 }
 
 .red {
-    position: relative;
-    float: right;
+    display: flex;
+    justify-content: right;
     align-items: center;
-    justify-content: space-around;
+    gap: 25px;
+}
+
+.redes {
+    border-radius: 100px;
 }
