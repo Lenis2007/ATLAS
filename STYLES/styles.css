@@ -9,25 +9,25 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 0;
+    padding: 70px 0;
     color: white;
     font-size: 20px;
 }
 
 .inicio {
-    padding: 0 130px;
+    padding: 0 120px;
     background-image: url(../ASSETS/banner-bk.jpg);
     background-size: cover;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 10px;
 }
 
 .text {
     display: flex;
     color: white;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .logo {
@@ -37,7 +37,7 @@ header {
 .texto1 {
     display: flex;
     color: white;
-    font-size: 25px;
+    font-size: 22px;
     width: 1000px;
 }
 
@@ -69,11 +69,11 @@ header {
 }
 
 section .caja p {
-    width: 70%;
+    width: 60%;
 }
 
 .img {
-    width: 200px;
+    width: 150px;
 }
 
 .gris {
@@ -81,13 +81,13 @@ section .caja p {
 }
 
 .pa {
-    font-size: 25px;
+    font-size: 22px;
     color: rgb(95, 94, 94);
 }
 
 .container {
     display: flex;
-    gap: 20px;
+    gap: 18px;
     align-items: center;
     padding: 0 130px;
 }
@@ -112,7 +112,7 @@ section .caja p {
 
 .take {
     padding: 180px 0;
-    font-size: 25px;
+    font-size: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,21 +120,21 @@ section .caja p {
 }
 
 .par {
-    font-size: 25px;
+    font-size: 22px;
     color: rgb(95, 94, 94);
     width: 90%;
 }
 
 .take aside {
-    width: 50%;
+    width: 40%;
 }
 
 .gradiente {
-    background: linear-gradient(168deg, white 60%, #00ffae 0);
+    background: linear-gradient(168deg, white 50%, #00ffae 0);
 }
 
 .titule {
-    font-size: 50px;
+    font-size: 40px;
     color: rgb(78, 73, 73);
 }
 
@@ -147,9 +147,9 @@ section .caja p {
 .pricing {
     display: flex;
     width: 100%;
-    padding: 90px 0;
+    padding: 40px 0;
     justify-content: center;
-    gap: 250px;
+    gap: 110px;
 }
 
 .texto {
@@ -202,16 +202,16 @@ span {
 }
 
 .con {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .contact {
-    padding: 150px 130px;
+    padding: 130px 110px;
     background-image: url(../ASSETS/contact-bk.jpg);
-    height: 40vh;
-    font-size: 25px;
+    height: 50vh;
+    font-size: 22px;
     display: flex;
-    gap: 60px;
+    gap: 50px;
 }
 
 .contact aside {
@@ -220,9 +220,9 @@ span {
 }
 
 .formulario {
-    margin-top: 33px;
-    width: 850px;
-    font-size: 25px;
+    margin-top: 15px;
+    width: 550px;
+    font-size: 22px;
 }
 
 .formulario label {
@@ -243,7 +243,7 @@ span {
     border-color: #00ffae;
     background: transparent;
     color: white;
-    height: 100px;
+    height: 90px;
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -259,17 +259,17 @@ span {
 .form {
     display: flex;
     justify-content: space-around;
-    gap: 60px;
+    gap: 10px;
 }
 
 .boton {
     color: #122242;
-    width: 800px;
-    height: 50px;
+    width: 550px;
+    height: 45px;
     border-radius: 50px;
     background-color: #00ffae;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -281,7 +281,7 @@ footer {
     justify-content: space-between;
     padding: 0 130px;
     background-color: #122242;
-    height: 150px;
+    height: 100px;
 }
 
 .red {
@@ -296,8 +296,38 @@ footer {
 }
 
 @media screen and (max-width:921px) {
+
+
+    .inicio {
+        padding: 0 130px;
+        height: 110vh;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header {
+        padding: 60px 0;
+    }
+
+    .pa {
+        font-size: 20px;
+    }
+
+    .gris {
+        font-size: 25px;
+    }
+
+    .par {
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 70px;
+        font-weight: 700;
+    }
+
     .formulario {
-        margin-top: 33px;
+        margin-top: 0;
         width: 500px;
         font-size: 20px;
     }
@@ -309,11 +339,15 @@ footer {
         box-sizing: border-box;
     }
 
+    .formulario textarea {
+        height: 70px;
+    }
+
     .boton {
         width: 100%;
-        height: 50px;
-        border-radius: 50px;
-        font-size: 30px;
+        height: 40px;
+        border-radius: 30px;
+        font-size: 25px;
         font-weight: 500;
     }
 
@@ -330,20 +364,41 @@ footer {
     }
 
     .contenido {
-        display: flex;
-        flex-direction: column;
-        padding: 100px 0;
+        padding: 50px 0;
+        height: 90px;
     }
 
     .contenido2 {
         text-align: center;
         font-size: 20px;
-        padding: 100px 0;
+        padding: 50px 0;
+        height: 480px;
+    }
+
+    .take {
+        padding: 130px 0;
+    }
+
+    .take aside {
+        width: 40%;
+    }
+
+    .titulo {
+        font-size: 40px;
+        padding-top: 60px;
+    }
+
+    .titule {
+        font-size: 40px;
+    }
+
+    .text {
+        font-size: 60px;
     }
 
     .texto1 {
-        font-size: 25px;
-        width: 800px;
+        font-size: 20px;
+        width: 700px;
     }
 
     .imagen {
@@ -354,7 +409,7 @@ footer {
     }
 
     .imagen img {
-        width: 100%;
+        width: 80%;
     }
 
     .logos {
@@ -364,40 +419,105 @@ footer {
     }
 
     .contact {
-        padding: 100px 130px;
+        padding: 120px 100px;
     }
 
     .contact aside {
-        width: 50%;
+        height: 80px;
+        width: 60%;
         font-size: 15px;
+    }
+
+    .contacto {
+        width: 80%;
+        font-size: 17px;
+    }
+
+    .free {
+        height: 40px;
+    }
+
+    footer {
+        font-size: 15px;
+        align-items: center;
+        padding: 0px 50px;
+        height: 60px;
+    }
+
+    .redes {
+        border-radius: 100px;
+        height: 40px;
     }
 }
 
 @media screen and (max-width:769px) {
     .inicio {
-        height: 95vh;
+        padding: 0 100px;
+        height: 100vh;
+    }
+
+    .text {
+        font-size: 50px;
     }
 
     .texto1 {
-        font-size: 25px;
-        width: 500px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    header {
+        padding: 50px 0;
+    }
+
+    .container {
+        padding: 0 80px;
+    }
+
+    .titulo {
+        font-size: 36px;
+        padding-top: 60px;
+    }
+
+    .take {
+        padding: 80px 0px;
+    }
+
+    .pa {
+        font-size: 18px;
+    }
+
+    .take aside {
+        width: 40%;
+    }
+
+    .par {
+        font-size: 18px;
+    }
+
+    .imagen img {
+        width: 70%;
     }
 
     .logos {
-        padding: 0 6px;
-        height: 200px;
+        padding: 0 80px;
+        height: 90px;
     }
 
     .log img {
         width: 90%;
     }
 
+    .con {
+        font-size: 40px;
+    }
+
+    .contacto {
+        width: 100%;
+        font-size: 15px;
+    }
+
     .contact {
         padding: 80px 80px;
-        height: 40vh;
-        font-size: 25px;
-        display: flex;
-        gap: 60px;
     }
 
     .contact aside {
@@ -406,17 +526,19 @@ footer {
     }
 
     .formulario {
-        margin-top: 90px;
+        margin-top: 0;
         width: 500px;
-        font-size: 15px;
+        font-size: 17px;
     }
 
-    footer {
+    .boton {
+        height: 35px;
         font-size: 20px;
-        align-items: center;
-        justify-content: space-between;
+    }
+    footer {
+        font-size: 18px;
         padding: 0 50px;
-        height: 100px;
+        height: 80px;
     }
 
     .pricing {
@@ -430,6 +552,7 @@ footer {
 
     .texto {
         font-size: 18px;
+        text-align: center;
     }
 
     .free {
@@ -446,5 +569,229 @@ footer {
         border-radius: 50px;
         font-size: 20px;
         font-weight: 700;
+    }
+}
+
+@media screen and (max-width:481px) {
+    .inicio {
+        padding: 0 40px;
+    }
+
+    header {
+        padding: 30px;
+    }
+
+    .logo {
+        height: 90px;
+    }
+
+    .get {
+        width: 150px;
+        height: 40px;
+    }
+
+    .titulo {
+        font-size: 26px;
+        padding-top: 40px;
+    }
+
+    .container {
+        gap: 8px;
+        padding: 0 40px;
+    }
+
+    .caja {
+        gap: 10px;
+    }
+
+    .img {
+        width: 100px;
+    }
+
+    .gris {
+        font-size: 18px;
+    }
+
+    .pa {
+        font-size: 15px;
+    }
+
+    .take {
+        padding: 50px 0px;
+    }
+
+    .titule {
+        font-size: 26px;
+    }
+
+    .par {
+        font-size: 15px;
+    }
+
+    .learn {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .imagen {
+        width: 222px;
+    }
+
+    .contenido {
+        padding: 50px 40px;
+        height: 100%;
+    }
+
+    .contenido2 {
+        padding: 50px 40px;
+    }
+
+    .logos {
+        padding: 0 30px;
+        height: 70px;
+    }
+
+    .con {
+        font-size: 50px;
+    }
+
+    .contact {
+        display: block;
+        height: 110vh;
+        padding: 50px 40px;
+    }
+
+    .contacto {
+        /* margin-top: 250px; */
+        width: 300px;
+        height: 100%;
+        font-size: 15px;
+        display: block;
+        align-items: center;
+    }
+
+    .formulario {
+        height: 0%;
+        font-size: 15px;
+        margin-top: 280px;
+        width: 400px;
+    }
+
+    .formulario input {
+        width: 400px;
+        display: block;
+    }
+
+    .formulario textarea {
+        width: 400px;
+    }
+
+    .form {
+        display: block;
+        width: 400px;
+    }
+
+    .boton {
+        height: 35px;
+        width: 400px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 0 40px;
+        height: 70px;
+    }
+
+    .redes {
+        border-radius: 100px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:352px) {
+    header {
+        padding: 20px;
+        gap: 60px;
+    }
+
+    .inicio {
+        padding: 20 10px;
+    }
+
+    .text {
+        font-size: 40px;
+    }
+
+    .texto1 {
+        font-size: 18px;
+    }
+
+    .titulo {
+        font-size: 24px;
+        padding-top: 30px;
+    }
+
+    .container {
+        gap: 6px;
+        padding: 0 18px;
+    }
+
+    .take {
+        padding: 40px 0px;
+    }
+
+    .imagen {
+        width: 186px;
+    }
+
+    .par {
+        font-size: 14px;
+        width: 130px;
+    }
+
+    .learn {
+        width: 130px;
+    }
+
+    .pricing {
+        padding: 10px 0;
+    }
+
+    .contenido2 {
+        height: 500px;
+        width: 150px;
+    }
+
+    .formulario {
+        width: 280px
+    }
+
+    .form {
+        width: 280px;
+    }
+
+    .formulario input {
+        width: 280px;
+    }
+
+    .formulario textarea {
+        width: 280px;
+    }
+
+    .boton {
+        width: 280px;
+    }
+
+    footer {
+        padding: 0 10px;
+    }
+
+    .red {
+        gap: 5px;
+    }
+
+    .redes {
+        height: 30px;
     }
 }
