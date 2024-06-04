@@ -38,7 +38,6 @@ header {
     display: flex;
     color: white;
     font-size: 22px;
-    width: 1000px;
 }
 
 .get {
@@ -87,6 +86,7 @@ section .caja p {
 }
 
 .container {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     gap: 18px;
@@ -202,7 +202,7 @@ span {
     align-items: center;
     padding: 0 130px;
     background-color: rgb(228, 228, 228);
-    height: 200px;
+    flex-wrap: wrap;
 }
 
 .con {
@@ -212,7 +212,6 @@ span {
 .contact {
     padding: 130px 110px;
     background-image: url(../ASSETS/contact-bk.jpg);
-    height: 30vh;
     font-size: 22px;
     display: flex;
     gap: 50px;
@@ -256,7 +255,7 @@ span {
 
 .input-container {
     display: flex;
-    width: 50%;
+    width: 100%;
     flex-direction: column;
 }
 
@@ -303,8 +302,7 @@ footer {
 
 
     .inicio {
-        padding: 0 130px;
-        height: 70vh;
+        padding: 100px;
         flex-direction: column;
         gap: 10px;
     }
@@ -343,9 +341,9 @@ footer {
         box-sizing: border-box;
     }
 
-    .formulario textarea {
+    /* .formulario textarea {
         height: 70px;
-    }
+    } */
 
     .boton {
         width: 100%;
@@ -369,7 +367,6 @@ footer {
 
     .contenido {
         padding: 50px 0;
-        height: 90px;
     }
 
     .contenido2 {
@@ -402,7 +399,6 @@ footer {
 
     .texto1 {
         font-size: 20px;
-        width: 700px;
     }
 
     .imagen {
@@ -419,7 +415,6 @@ footer {
     .logos {
         align-items: center;
         padding: 0 80px;
-        height: 200px;
     }
 
     .contact {
@@ -427,7 +422,6 @@ footer {
     }
 
     .contact aside {
-        height: 80px;
         width: 60%;
         font-size: 15px;
     }
@@ -455,10 +449,7 @@ footer {
 }
 
 @media screen and (max-width:769px) {
-    .inicio {
-        padding: 0 100px;
-        height: 70vh;
-    }
+
 
     .text {
         font-size: 50px;
@@ -504,7 +495,6 @@ footer {
 
     .logos {
         padding: 0 80px;
-        height: 90px;
     }
 
     .log img {
@@ -631,14 +621,15 @@ footer {
     .par {
         font-size: 15px;
     }
-
+    
     .learn {
         width: 150px;
         height: 40px;
         font-size: 18px;
     }
-
+    
     .imagen {
+        display: none;
         width: 222px;
     }
 
@@ -648,12 +639,12 @@ footer {
     }
 
     .contenido2 {
-        padding: 50px 40px;
+        width: 100%;
+        padding: 50px 0;
     }
 
     .logos {
         padding: 0 30px;
-        height: 70px;
     }
 
     .con {
@@ -667,7 +658,6 @@ footer {
     }
 
     .contacto {
-        /* margin-top: 250px; */
         width: 300px;
         height: 100%;
         font-size: 15px;
@@ -678,27 +668,31 @@ footer {
     .formulario {
         height: 0%;
         font-size: 15px;
-        margin-top: 280px;
-        width: 400px;
+        margin-top: 10pxpx;
+        width: 100%;
     }
-
+    
     .formulario input {
-        width: 400px;
+        width: 100%;
         display: block;
     }
 
-    .formulario textarea {
+   /*  .formulario textarea {
         width: 400px;
-    }
+    } */
 
     .form {
         display: block;
-        width: 400px;
+        width: 100%;
+    }
+    
+    .caja {
+        width: 100%;
     }
 
     .boton {
         height: 35px;
-        width: 400px;
+        width: 100%;
     }
 
     footer {
@@ -764,11 +758,10 @@ footer {
 
     .contenido2 {
         height: 500px;
-        width: 150px;
     }
 
     .formulario {
-        width: 280px
+        width: 280px;
     }
 
     .form {
