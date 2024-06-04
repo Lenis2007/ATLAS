@@ -142,6 +142,7 @@ section .caja p {
     display: flex;
     flex-direction: column;
     padding: 100px 0;
+    align-items: center;
 }
 
 .pricing {
@@ -163,6 +164,7 @@ section .caja p {
     background-color: #122242;
     width: 30%;
     padding: 80px 0;
+    align-items: center;
 }
 
 span {
